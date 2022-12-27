@@ -1,0 +1,15 @@
+        @media (min-width: 768px) {
+            .ladi-section .ladi-container {
+                width: 1200px;
+            }
+        }
+
+        @media (max-width: 767px) {
+            .ladi-section .ladi-container {
+                width: 420px;
+            }
+        }
+
+        body {
+            font-family: Montserrat, sans-serif
+        }

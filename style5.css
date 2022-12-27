@@ -1,0 +1,21 @@
+        .ladi-section-background,
+        .ladi-image-background,
+        .ladi-button-background,
+        .ladi-headline,
+        .ladi-video-background,
+        .ladi-countdown-background,
+        .ladi-box,
+        .ladi-frame-background,
+        .ladi-tabs-background,
+        .ladi-survey-option-background,
+        .ladi-survey-option-image,
+        .ladi-banner,
+        .ladi-form-item-background,
+        .ladi-gallery-view-item,
+        .ladi-gallery-control-item,
+        .ladi-spin-lucky-screen,
+        .ladi-spin-lucky-start,
+        .ladi-form-label-container .ladi-form-label-item.image,
+        .ladi-list-paragraph ul li:before {
+            background-image: none !important;
+        }
