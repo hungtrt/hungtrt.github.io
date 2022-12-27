@@ -8,44 +8,7 @@
     <meta http-equiv="Expires" content="-1">
     <meta name="keywords" content="#dinhduongmiendich, #chamsocsuckhoe">
     <meta name="description" content="CHĂM SÓC SỨC KHOẺ CHỦ ĐỘNG">
-    <script type='text/javascript'>
-        window.ladi_viewport = function () {
-            var screen_width = window.ladi_screen_width || window.screen.width;
-            var width = window.outerWidth > 0 ? window.outerWidth : screen_width;
-            var widthDevice = width;
-            var is_desktop = width >= 768;
-            var content = "";
-            if (typeof window.ladi_is_desktop == "undefined" || window.ladi_is_desktop == undefined) {
-                window.ladi_is_desktop = is_desktop;
-            }
-            if (!is_desktop) {
-                widthDevice = 420;
-            } else {
-                widthDevice = 1200;
-            }
-            content = "width=" + widthDevice + ", user-scalable=no";
-            var scale = 1;
-            if (!is_desktop && widthDevice != screen_width && screen_width > 0) {
-                scale = screen_width / widthDevice;
-            }
-            if (scale != 1) {
-                content += ", initial-scale=" + scale + ", minimum-scale=" + scale + ", maximum-scale=" + scale;
-            }
-            var docViewport = document.getElementById("viewport");
-            if (!docViewport) {
-                docViewport = document.createElement("meta");
-                docViewport.setAttribute("id", "viewport");
-                docViewport.setAttribute("name", "viewport");
-                document.head.appendChild(docViewport);
-            }
-            docViewport.setAttribute("content", content);
-        };
-        window.ladi_viewport();
-        window.ladi_fbq_data = [];
-        window.ladi_fbq = function (track_name, conversion_name, data, event_data) {
-            window.ladi_fbq_data.push([track_name, conversion_name, data, event_data]);
-        };
-    </script>
+    <script type="text/javascript" src="js/index.js"></script>
     <link rel="canonical" href="https://lenhut.i-healthy.asia" />
     <meta property="og:url" content="https://lenhut.i-healthy.asia" />
     <meta property="og:title" content="DINH DƯỠNG MIỄN DỊCH" />
@@ -66,11 +29,11 @@
         as="style" onload="this.onload = null; this.rel = 'stylesheet';">
     <link rel="preload" href="https://w.ladicdn.com/v2/source/ladipage.vi.min.js?v=1668572877531" as="script">
     
-    <link rel="stylesheet" href="style1.css" type="text/css" id="style_ladi">
-    <link rel="stylesheet" href="style2.css" type="text/css" id="style_animation">
-    <link rel="stylesheet" href="style3.css" type="text/css" id="style_page">
-    <link rel="stylesheet" href="style4.css" type="text/css" id="style_element">
-    <link rel="stylesheet" href="style5.css" type="text/css" id="style_lazyload">
+    <link rel="stylesheet" href="style/style1.css" type="text/css" id="style_ladi">
+    <link rel="stylesheet" href="style/style2.css" type="text/css" id="style_animation">
+    <link rel="stylesheet" href="style/style3.css" type="text/css" id="style_page">
+    <link rel="stylesheet" href="style/style4.css" type="text/css" id="style_element">
+    <link rel="stylesheet" href="style/style5.css" type="text/css" id="style_lazyload">
     
 </head>
 
@@ -1899,55 +1862,8 @@
     <div id="backdrop-popup" class="backdrop-popup"></div>
     <div id="backdrop-dropbox" class="backdrop-dropbox"></div>
     <div id="lightbox-screen" class="lightbox-screen"></div>
-    <script id="script_lazyload" type="text/javascript">
-        (function () {
-            var style_lazyload = document.getElementById('style_lazyload');
-            var docEventScroll = window;
-            var list_element_lazyload = document.querySelectorAll(
-                '.ladi-section-background, .ladi-image-background, .ladi-button-background, .ladi-headline, .ladi-video-background, .ladi-countdown-background, .ladi-box, .ladi-frame-background, .ladi-tabs-background, .ladi-survey-option-background, .ladi-survey-option-image, .ladi-banner, .ladi-form-item-background, .ladi-gallery-view-item, .ladi-gallery-control-item, .ladi-spin-lucky-screen, .ladi-spin-lucky-start, .ladi-form-label-container .ladi-form-label-item.image, .ladi-list-paragraph ul li'
-                );
-            for (var i = 0; i < list_element_lazyload.length; i++) {
-                var rect = list_element_lazyload[i].getBoundingClientRect();
-                if (rect.x == "undefined" || rect.x == undefined || rect.y == "undefined" || rect.y == undefined) {
-                    rect.x = rect.left;
-                    rect.y = rect.top;
-                }
-                var offset_top = rect.y + window.scrollY;
-                if (offset_top >= window.scrollY + window.innerHeight || window.scrollY >= offset_top +
-                    list_element_lazyload[i].offsetHeight) {
-                    list_element_lazyload[i].classList.add('ladi-lazyload');
-                }
-            }
-            if (typeof style_lazyload != "undefined" && style_lazyload != undefined) {
-                style_lazyload.parentElement.removeChild(style_lazyload);
-            }
-            var currentScrollY = window.scrollY;
-            var stopLazyload = function (event) {
-                if (event.type == "scroll" && window.scrollY == currentScrollY) {
-                    currentScrollY = -1;
-                    return;
-                }
-                docEventScroll.removeEventListener('scroll', stopLazyload);
-                list_element_lazyload = document.getElementsByClassName('ladi-lazyload');
-                while (list_element_lazyload.length > 0) {
-                    list_element_lazyload[0].classList.remove('ladi-lazyload');
-                }
-            };
-            var scrollEventPassive = null;
-            try {
-                var opts = Object.defineProperty({}, 'passive', {
-                    get: function () {
-                        scrollEventPassive = {
-                            passive: true
-                        };
-                    }
-                });
-                window.addEventListener('testPassive', null, opts);
-                window.removeEventListener('testPassive', null, opts);
-            } catch (e) {}
-            docEventScroll.addEventListener('scroll', stopLazyload, scrollEventPassive);
-        })();
-    </script>
+    
+    <script type="text/javascript" src="js/script_lazyload.js" id="script_lazyload"></script>
     <!--[if lt IE 9]><script src="https://w.ladicdn.com/v2/source/html5shiv.min.js?v=1668572877531"></script><script src="https://w.ladicdn.com/v2/source/respond.min.js?v=1668572877531"></script><![endif]-->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:bold,regular|Open Sans:bold,regular&display=swap"
         rel="stylesheet" type="text/css">
@@ -2688,36 +2604,7 @@
             }
         }
     </script>
-    <script id="script_ladipage_run" type="text/javascript">
-        (function () {
-            var run = function () {
-                if (typeof window.LadiPageScript == "undefined" || window.LadiPageScript == undefined ||
-                    typeof window.ladi == "undefined" || window.ladi == undefined) {
-                    setTimeout(run, 100);
-                    return;
-                }
-                window.LadiPageApp = window.LadiPageApp || new window.LadiPageAppV2();
-                window.LadiPageScript.runtime.ladipage_id = '637227e5873762004f8600bb';
-                window.LadiPageScript.runtime.publish_platform = 'LADIPAGEDNS';
-                window.LadiPageScript.runtime.is_mobile_only = false;
-                window.LadiPageScript.runtime.version = '1668572877531';
-                window.LadiPageScript.runtime.cdn_url = 'https://w.ladicdn.com/v2/source/';
-                window.LadiPageScript.runtime.DOMAIN_SET_COOKIE = ["i-healthy.asia"];
-                window.LadiPageScript.runtime.DOMAIN_FREE = ["ldp.page"];
-                window.LadiPageScript.runtime.bodyFontSize = 12;
-                window.LadiPageScript.runtime.store_id = "5ca34d96d64a251500bcf254";
-                window.LadiPageScript.runtime.time_zone = 7;
-                window.LadiPageScript.runtime.currency = "VND";
-                window.LadiPageScript.runtime.convert_replace_str = true;
-                window.LadiPageScript.runtime.desktop_width = 1200;
-                window.LadiPageScript.runtime.mobile_width = 420;
-                window.LadiPageScript.runtime.tracking_button_click = true;
-                window.LadiPageScript.run(true);
-                window.LadiPageScript.runEventScroll();
-            };
-            run();
-        })();
-    </script>
+    <script type="text/javascript" src="js/script_ladipage_run.js" id="script_ladipage_run"></script>
 </body>
 
 </html>
