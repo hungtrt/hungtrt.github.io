@@ -2564,6 +2564,7 @@
         right: auto;
         position: fixed;
         z-index: 90000060;
+        margin-top: 50px;
     }
 
     #NOTIFY1747>.ladi-notify {
@@ -2580,6 +2581,7 @@
         bottom: auto;
         position: fixed;
         z-index: 90000060;
+        margin-top: 50px;
     }
 
     #NOTIFY1187>.ladi-notify {
@@ -3529,7 +3531,7 @@
         width: 1152px;
         height: 35.0769px;
         top: 13.9616px;
-        left: 7rem;
+        left: 2.5rem;
     }
 
     #BUTTON2160 {
@@ -7813,6 +7815,7 @@
         right: auto;
         position: fixed;
         z-index: 90000060;
+        margin-top: 50px;
     }
 
     #NOTIFY1747>.ladi-notify {
@@ -7829,6 +7832,7 @@
         bottom: auto;
         position: fixed;
         z-index: 90000060;
+        margin-top: 50px;
     }
 
     #NOTIFY1187>.ladi-notify {
@@ -9059,7 +9063,10 @@
         background: none !important;
         background-color: rgb(1, 137, 59) !important;
     }
-
+    .ladi-button-background{
+        background-color: rgb(56,182,255) !important;
+        border-radius: 10px;
+    }
     #BUTTON_TEXT2131 {
         width: 140px;
         top: 8.75186px;
