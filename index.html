@@ -1696,14 +1696,13 @@
                                                 </div>
                                                 <div id="FORM1025" data-config-id="63722cbbc5bb580038ef4c80"
                                                     class='ladi-element'>
-                                                    <form autocomplete="off" method="post" class="ladi-form"
-                                                        action="https://script.google.com/macros/s/AKfycbyD19Zk8RPUijyiX3GdY9IVEa44nyW_3gFMlHRrrkU/dev">
+                                                    <form autocomplete="off" method="post" class="ladi-form" name="google-sheet">
                                                         <div id="BUTTON1026" class="ladi-element">
                                                             <div class="ladi-button">
                                                                 <div class="ladi-button-background ladi-lazyload"></div>
                                                                 <div id="BUTTON_TEXT1026"
                                                                     class="ladi-element ladi-button-headline ladi-animation">
-                                                                    <button class="ladi-button" style="background-color: rgb(26,141,37);" type="submit">ĐĂNG KÝ NGAY</button>
+                                                                    <button class="ladi-button" style="background-color: rgb(26,141,37);color: rgb(255, 255, 255) ;font-weight: bold;" type="submit">ĐĂNG KÝ NGAY</button>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1882,6 +1881,17 @@
         rel="stylesheet" type="text/css">
     <link href="https://w.ladicdn.com/v2/source/ladipage.min.css?v=1668572877531" rel="stylesheet" type="text/css">
     <script src="https://w.ladicdn.com/v2/source/ladipage.vi.min.js?v=1668572877531" type="text/javascript"></script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxNUaOibRTnD-DTZDKZkF_zeIGXAJHM8zaGQhTZUIK5bK-feRlqKeu3N3lMa1NrwKvO/exec'
+        const form = document.forms['google-sheet']
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => alert("Đăng ký thành công!"))
+            .catch(error => console.error('Error!', error.message))
+        })
+    </script>
     <script id="script_event_data" type="application/json">
         {
             "POPUP1018": {
