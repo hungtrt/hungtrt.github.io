@@ -317,7 +317,7 @@ body {
     top: 0;
     left: 0;
     z-index: 10000000000;
-    background: rgba(0, 0, 0, .3)
+    background: rgba(0, 0, 0, .3);
 }
 
 .ladipage-message .ladipage-message-box {
@@ -331,7 +331,7 @@ body {
     left: 0;
     right: 0;
     margin: auto;
-    border-radius: 10px
+    border-radius: 10px;
 }
 
 .ladipage-message .ladipage-message-box span {
@@ -355,7 +355,8 @@ body {
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     overflow: hidden;
-    text-overflow: ellipsis
+    text-overflow: ellipsis;
+    display: none;
 }
 
 .ladipage-message .ladipage-message-box .ladipage-message-close {
