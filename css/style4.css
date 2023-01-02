@@ -2236,7 +2236,14 @@
         height: 558px;
         top: 0px;
         left: 0px;
-        background-image: url("https://w.ladicdn.com/s900x900/5ca34d96d64a251500bcf254/z3880488708710_146d93a153284b41f7bd81d0ffb9b8c3-20221114113625-qsxtu.jpg");
+        background-image: url("https://res.cloudinary.com/dlg9e7xqu/image/upload/v1672674139/New%20Image/Screenshot_2023-01-02_224156_nru3q0.png");
+    }
+    #IMAGE1764>.ladi-image>.ladi-image-background {
+        width: 587.295px;
+        height: 558px;
+        top: 0px;
+        left: 0px;
+        background-image: url("https://res.cloudinary.com/dlg9e7xqu/image/upload/v1672669278/New%20Image/z3980773014477_9adc4c01e69a70834ae48f53d0abd2cd_d7h9kh.jpg");
     }
 
     #BAOCHI {
@@ -2334,7 +2341,7 @@
         height: 702.414px;
         top: 0px;
         left: 0px;
-        background-image: url("https://w.ladicdn.com/s1300x1050/5ca34d96d64a251500bcf254/d65336263e15fd4ba404-20220805091835.jpg");
+        background-image: url("https://res.cloudinary.com/dlg9e7xqu/image/upload/v1672669277/New%20Image/z3980776727830_9458bc3d5b670f0e190baace0f20f3ff_znemig.jpg");
     }
 
     #BOX1874 {
@@ -2604,7 +2611,7 @@
         background-size: cover;
         background-attachment: scroll;
         background-origin: content-box;
-        background-image: url("https://w.ladicdn.com/s1440x785/5ca34d96d64a251500bcf254/123-ni-20221016122427-mb27z.jpg");
+        background-image: url("https://res.cloudinary.com/dlg9e7xqu/image/upload/v1672669284/New%20Image/z3980885763349_7386206ed87aea82d7c0617cc15fe91b_cgcphz.jpg");
         background-position: center top;
         background-repeat: no-repeat;
     }
@@ -2707,7 +2714,7 @@
         height: 780.769px;
         top: -7.212px;
         left: 1.11172px;
-        background-image: url("https://w.ladicdn.com/s1450x1100/5ca34d96d64a251500bcf254/sua-non-alpha-lipid-mua-o-dau-20211121110544.jpg");
+        background-image: url("https://res.cloudinary.com/dlg9e7xqu/image/upload/v1672669280/New%20Image/z3980807851527_3eba406e1fa35bc8e4f41abf539e2387_krsj4b.jpg");
     }
 
     #SHAPE2040 {
@@ -3059,7 +3066,7 @@
     }
 
     #SUANON>.ladi-section-background {
-        background-color: rgb(0, 128, 55);
+        background-color: #f1eff2;
     }
 
     #SUANON .ladi-section-arrow-down {
@@ -3904,7 +3911,7 @@
         height: 698.125px;
         top: 0px;
         left: 0px;
-        background-image: url("https://w.ladicdn.com/s1500x1000/5ca34d96d64a251500bcf254/sua-non-la-gi-1-20221110113951-zvdep.jpg");
+        background-image: url("https://res.cloudinary.com/dlg9e7xqu/image/upload/v1672669279/New%20Image/z3980798294514_955a86ee1b9826089282fcd6445e5e2b_pdqsdt.jpg");
     }
 
     #SHAPE2437 {
@@ -4060,7 +4067,7 @@
         height: 659.11px;
         top: 0px;
         left: 0px;
-        background-image: url("https://w.ladicdn.com/s1500x1000/5ca34d96d64a251500bcf254/picture1-20221113025610-wstil.png");
+        background-image: url("https://res.cloudinary.com/dlg9e7xqu/image/upload/v1672669286/New%20Image/z3984411813673_60c5cc9fb242fbb7994f4139bcb09a80_oobk4j.jpg");
     }
 
     #GROUP2445 {
@@ -7503,6 +7510,13 @@
         height: 364.786px;
         top: 0px;
         left: 0px;
+        background-image: url("https://res.cloudinary.com/dlg9e7xqu/image/upload/v1672674139/New%20Image/Screenshot_2023-01-02_224156_nru3q0.png");
+       }
+    #IMAGE1765>.ladi-image>.ladi-image-background {
+        width: 285.295px;
+        height: 364.786px;
+        top: 0px;
+        left: 0px;
         background-image: url("https://w.ladicdn.com/s600x700/5ca34d96d64a251500bcf254/z3880488708710_146d93a153284b41f7bd81d0ffb9b8c3-20221114113625-qsxtu.jpg");
     }
 
@@ -7848,7 +7862,7 @@
         background-size: cover;
         background-attachment: scroll;
         background-origin: content-box;
-        background-image: url("https://w.ladicdn.com/s768x519/5ca34d96d64a251500bcf254/123-ni-20221016122427-mb27z.jpg");
+        background-image: url("https://res.cloudinary.com/dlg9e7xqu/image/upload/v1672669284/New%20Image/z3980885763349_7386206ed87aea82d7c0617cc15fe91b_cgcphz.jpg");
         background-position: left center;
         background-repeat: no-repeat;
     }
@@ -8303,7 +8317,7 @@
     }
 
     #SUANON>.ladi-section-background {
-        background-color: rgb(0, 128, 55);
+        background-color: #f1eff2;
     }
 
     #SUANON .ladi-section-arrow-down {
