@@ -2409,3 +2409,10 @@ a:link {
     line-height: 1.6;
     text-shadow: rgba(0, 0, 0, .5) 1px 0 2px
 }
+
+.textOfBtn {
+    color: rgb(227, 228, 201);
+    font-weight: bold;
+    text-align: center;
+    margin-top: -5px;
+}
