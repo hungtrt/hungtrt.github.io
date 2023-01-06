@@ -283,17 +283,17 @@
     }
 
     #VIDEO1146 {
-        width: 562.112px;
-        height: 323.813px;
-        top: 168.5px;
-        left: 290.26px;
+        width: 75%;
+        height: 90%;
+        top: 0;
+        left: 0;
     }
 
     #VIDEO1146>.ladi-video>.ladi-video-background {
         background-size: cover;
         background-attachment: scroll;
         background-origin: content-box;
-        background-image: url("https://img.youtube.com/vi/_GWPClp7u-U/hqdefault.jpg");
+        background-image: url("https://img.youtube.com/vi/NV7dICB0u2o/hqdefault.jpg");
         background-position: center center;
         background-repeat: no-repeat;
     }
@@ -321,17 +321,17 @@
     }
 
     #VIDEO1148 {
-        width: 273.778px;
-        height: 154px;
-        top: 0px;
-        left: 869.666px;
+        width: 73.333%;
+        height: 100%;
+        top: 0;
+        left: 0;
     }
 
     #VIDEO1148>.ladi-video>.ladi-video-background {
         background-size: cover;
         background-attachment: scroll;
         background-origin: content-box;
-        background-image: url("https://img.youtube.com/vi/2Hiz6Nti4og/hqdefault.jpg");
+        background-image: url("http://img.youtube.com/vi/2Hiz6Nti4og/maxresdefault.jpg");
         background-position: center center;
         background-repeat: no-repeat;
     }
@@ -429,10 +429,10 @@
     }
 
     #VIDEO1162 {
-        width: 273.778px;
-        height: 154px;
-        top: 506.313px;
-        left: 869.111px;
+        width: 25%;
+        height: 23%;
+        top: 0;
+        right: 0;
     }
 
     #VIDEO1162>.ladi-video>.ladi-video-background {
@@ -449,6 +449,7 @@
         height: 60px;
         top: 47px;
         left: 106.889px;
+        padding: 0.5px;
     }
 
     #SHAPE1164 svg:last-child {
@@ -456,17 +457,17 @@
     }
 
     #VIDEO1164 {
-        width: 273.778px;
-        height: 154px;
-        top: 506.313px;
-        left: 579.407px;
+        width: 25%;
+        height: 23%;
+        top: 25%;
+        right: 0;
     }
 
     #VIDEO1164>.ladi-video>.ladi-video-background {
         background-size: cover;
         background-attachment: scroll;
         background-origin: content-box;
-        background-image: url("https://img.youtube.com/vi/5F82eGj4BQw/hqdefault.jpg");
+        background-image: url("http://img.youtube.com/vi/4w7kymhnXBE/maxresdefault.jpg");
         background-position: center center;
         background-repeat: no-repeat;
     }
@@ -483,17 +484,17 @@
     }
 
     #VIDEO1166 {
-        width: 273.778px;
-        height: 154px;
-        top: 506.313px;
-        left: 289.704px;
+        width: 25%;
+        height: 23%;
+        top: 50%;
+        right: 0;
     }
 
     #VIDEO1166>.ladi-video>.ladi-video-background {
         background-size: cover;
         background-attachment: scroll;
         background-origin: content-box;
-        background-image: url("https://img.youtube.com/vi/tXr6KHjitT8/hqdefault.jpg");
+        background-image: url("https://img.youtube.com/vi/IFWLxfn94u8/hqdefault.jpg");
         background-position: center center;
         background-repeat: no-repeat;
     }
@@ -510,17 +511,17 @@
     }
 
     #VIDEO1168 {
-        width: 273.778px;
-        height: 154px;
-        top: 506.313px;
-        left: 0px;
+        width: 25%;
+        height: 23%;
+        top: 75%;
+        right: 0;
     }
 
     #VIDEO1168>.ladi-video>.ladi-video-background {
         background-size: cover;
         background-attachment: scroll;
         background-origin: content-box;
-        background-image: url("https://img.youtube.com/vi/rfcOPriHtd8/hqdefault.jpg");
+        background-image: url("https://img.youtube.com/vi/_lkxn7csqqI/hqdefault.jpg");
         background-position: center center;
         background-repeat: no-repeat;
     }
@@ -5532,9 +5533,9 @@
     }
 
     #VIDEO1146 {
-        width: 398.533px;
-        height: 223.018px;
-        top: 3.0883px;
+        width: 73%;
+        height: 95%;
+        top: 5%;
         left: 0px;
     }
 
@@ -5570,10 +5571,10 @@
     }
 
     #VIDEO1148 {
-        width: 397.058px;
-        height: 223.142px;
-        top: 3.02676px;
-        left: 1676.84px;
+        width: 73.333%;
+        height: 100%;
+        top: 0;
+        left: 0;
     }
 
     #VIDEO1148>.ladi-video>.ladi-video-background {
@@ -5678,17 +5679,17 @@
     }
 
     #VIDEO1162 {
-        width: 397.058px;
-        height: 223.142px;
-        top: 0px;
-        left: 4671.23px;
+        width: 75%;
+        height: 100%;
+        top: 0;
+        left: 0;
     }
 
     #VIDEO1162>.ladi-video>.ladi-video-background {
         background-size: cover;
         background-attachment: scroll;
         background-origin: content-box;
-        background-image: url("https://img.youtube.com/vi/VwEAZurPrqo/hqdefault.jpg");
+        background-image: url("http://img.youtube.com/vi/mske5rxKmkk/default.jpg");
         background-position: center center;
         background-repeat: no-repeat;
     }
