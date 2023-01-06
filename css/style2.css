@@ -69,6 +69,11 @@
         pointer-events: none !important;
     }
 
+    #SHAPE2048 {
+        opacity: 0 !important;
+        pointer-events: none !important;
+    }
+
     #SHAPE2053 {
         opacity: 0 !important;
         pointer-events: none !important;
@@ -192,6 +197,11 @@
     }
 
     #SHAPE2047 {
+        opacity: 0 !important;
+        pointer-events: none !important;
+    }
+
+    #SHAPE2048 {
         opacity: 0 !important;
         pointer-events: none !important;
     }
