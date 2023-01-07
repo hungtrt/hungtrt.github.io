@@ -2332,8 +2332,8 @@
 
         #IMAGE1873 {
             width: 980.958px;
-            height: 699.203px;
-            top: 14.7111px;
+            height: 576px;
+            top: 60px;
             left: 18.4141px;
         }
 
@@ -2346,14 +2346,15 @@
         }
 
         #BOX1874 {
-            width: 1018.19px;
-            height: 726.88px;
-            top: 0px;
-            left: 0px;
+            width: 1132.19px;
+            height: 658.88px;
+            top: 16px;
+            left: -48px;
         }
 
         #BOX1874>.ladi-box {
-            background-color: rgb(232, 58, 48);
+            background: #d2e6f3 !important;
+            box-shadow: 4px 4px 8px #ade2b6, -4px -4px 8px #ffffff;
             border-radius: 12px;
         }
 
@@ -7630,8 +7631,8 @@
         #IMAGE1873 {
             width: 392.577px;
             height: 282.596px;
-            top: 5.94579px;
-            left: 7.36925px;
+            top: 27.7111px;
+            left: 18.4141px;
         }
 
         #IMAGE1873>.ladi-image>.ladi-image-background {
