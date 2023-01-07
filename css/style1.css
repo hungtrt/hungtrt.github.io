@@ -1030,7 +1030,7 @@ body {
 .ladi-button>.ladi-button-shape {
     width: 100% !important;
     height: 100% !important;
-    top: -2px !important;
+    top: 0 !important;
     left: 0 !important;
     display: table;
     user-select: none;
