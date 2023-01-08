@@ -192,7 +192,7 @@
           </div>
         </div>
         <div data-action="true" id="GROUP2234" class="ladi-element">
-          <div id="loadingGif" style="position: relative;top: -364px;right: 880px !important; display: none;"><img
+          <div id="loadingGif" style="position: relative;top: -364px;right: 50rem !important; display: none;"><img
               src="/image/output-onlinegiftools.gif"></div>
           <div class="ladi-group">
             <div id="BOX2235" class="ladi-element">
@@ -1695,7 +1695,7 @@
                         <div id="BOX1024" class="ladi-element">
                           <div class="ladi-box"></div>
                         </div>
-                        <div id="FORM1025" data-config-id="63722cbbc5bb580038ef4c80" class="ladi-element">
+                        <div name="formRgt" id="FORM1025" data-config-id="63722cbbc5bb580038ef4c80" class="ladi-element">
                           <form autocomplete="off" method="post" class="ladi-form" name="google-sheet">
                             <div id="BUTTON1026" class="ladi-element">
                               <div class="ladi-button">
@@ -1714,7 +1714,7 @@
                               <div class="ladi-form-item-container">
                                 <div class="ladi-form-item-background ladi-lazyload"></div>
                                 <div class="ladi-form-item">
-                                  <input autocomplete="off" tabindex="1" name="Name" required=""
+                                  <input id="na" autocomplete="off" tabindex="1" name="Name" required=""
                                     class="ladi-form-control" type="text" placeholder="Họ và tên" value="" />
                                 </div>
                               </div>
@@ -1723,7 +1723,7 @@
                               <div class="ladi-form-item-container">
                                 <div class="ladi-form-item-background ladi-lazyload"></div>
                                 <div class="ladi-form-item">
-                                  <input autocomplete="off" tabindex="2" name="Email" class="ladi-form-control"
+                                  <input id="ema" autocomplete="off" tabindex="2" name="Email" class="ladi-form-control" required
                                     type="email" placeholder="Email" value="" />
                                 </div>
                               </div>
@@ -1732,7 +1732,7 @@
                               <div class="ladi-form-item-container">
                                 <div class="ladi-form-item-background ladi-lazyload"></div>
                                 <div class="ladi-form-item">
-                                  <input autocomplete="off" tabindex="3" name="Phone" required=""
+                                  <input id="pho" autocomplete="off" tabindex="3" name="Phone" required
                                     class="ladi-form-control" type="tel" placeholder="Số điện thoại"
                                     pattern="(\+84|0){1}(9|8|7|5|3){1}[0-9]{8}" value="" />
                                 </div>
@@ -1862,14 +1862,22 @@
   <script type="text/javascript" src="js/script_lazyload.js" id="script_lazyload"></script>
   <script>
     function closeForm() {
-      document.getElementById("POPUP1018").style.display = "none";
+      var Name = document.getElementById("na").value;
+      var Email = document.getElementById("ema").value;
+      var Phone = document.getElementById("pho").value;
+
+      if (Phone=="") {
+        document.getElementById("POPUP1018").style.display = "block";
+      }else{
+        document.getElementById("POPUP1018").style.display = "none";
+      }
     }
 
     function showLoading() {
       document.getElementById('loadingGif').style.display = "block";
       setTimeout(function () {
         document.getElementById('loadingGif').style.display = "none";
-      }, 2000);
+      }, 2600);
     }
   </script>
   <!--[if lt IE 9

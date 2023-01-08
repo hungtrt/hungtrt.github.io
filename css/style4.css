@@ -1,4 +1,8 @@
     @media (min-width: 768px) {
+        #loadingGif {
+            right: 43rem;
+        }
+
         #SECTION_POPUP {
             height: 0px;
         }
@@ -7631,8 +7635,8 @@
         #IMAGE1873 {
             width: 392.577px;
             height: 282.596px;
-            top: 27.7111px;
-            left: 18.4141px;
+            top: 6.7111px;
+            left: 6.4141px;
         }
 
         #IMAGE1873>.ladi-image>.ladi-image-background {
@@ -7648,11 +7652,15 @@
             height: 293.782px;
             top: 0px;
             left: 0px;
+            background: #d2e6f3 !important;
+            box-shadow: 4px 4px 8px #ade2b6, -4px -4px 8px #ffffff;
+            border-radius: 12px;
         }
 
         #BOX1874>.ladi-box {
             background-color: rgb(232, 58, 48);
             border-radius: 12px;
+
         }
 
         #GROUP1893 {
